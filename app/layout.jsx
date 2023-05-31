@@ -1,6 +1,6 @@
 import"@styles/globals.css";
 import Nav from "../components/Nav"
-import provider from "../components/providers";
+import Provider from "../components/providers";
 
 
 export const metadata={
@@ -12,7 +12,7 @@ export default function RootLayout({children}) {
   return (
     <html lang="en">
       <body>
-      <provider>
+      <Provider>
        <div className="main">
         <div className="gradient"/>
        </div>
@@ -20,7 +20,7 @@ export default function RootLayout({children}) {
        < Nav />
         {children}
        </main>
-       </provider>
+       </Provider>
       </body>
     </html>
   )
