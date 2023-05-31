@@ -21,6 +21,7 @@ const Nav=() =>{
 
   return (
     <div className='container p-3 flex gap-11 justify-between  z-40'>
+      
       <div className='flex'>
       <Link href={"/"}>
       <Image 
